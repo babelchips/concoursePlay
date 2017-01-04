@@ -9,8 +9,8 @@ outputs:
  - name: generated-output-folder
 
 run:
-  path: echo
-  args: ['hello there - should trigger...' > generated-output-folder]
+  path: generate-output.sh
+
   
   
   
