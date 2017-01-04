@@ -16,7 +16,7 @@ params:
 
 run:
   path: resource-concourseFromGit/task/generate-output.sh
-  args: [{MYPARAM1}]
+  args: [$MYPARAM1]
 
   
   
