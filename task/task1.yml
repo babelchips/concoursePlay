@@ -9,7 +9,7 @@ outputs:
  - name: generated-output-folder
 
 run:
-  path: generate-output.sh
+  path: resource-concourseFromGit/task/generate-output.sh
 
   
   
