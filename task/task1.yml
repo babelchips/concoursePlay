@@ -12,11 +12,11 @@ outputs:
  - name: generated-output-folder
 
 params:
-    taskArgumentHere1: "default message"
+    MYPARAM1: "default message"
 
 run:
   path: resource-concourseFromGit/task/generate-output.sh
-  args: ["nothing to see here"]
+  args: [{MYPARAM1}]
 
   
   
