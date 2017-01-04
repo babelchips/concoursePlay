@@ -6,6 +6,6 @@ if [ ! -d generated-output-folder ]; then
 	mkdir generated-output-folder
 fi
 
-echo $1 > generated-output-folder/output.txt
+echo $MYPARAM1 > generated-output-folder/output.txt
 
 echo FINISHED.
