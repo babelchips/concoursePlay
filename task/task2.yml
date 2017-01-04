@@ -7,12 +7,11 @@ image_resource:
 
 inputs:
  - name: resource-concourseFromGit
-
-outputs: 
  - name: generated-output-folder
 
+
 run:
-  path: resource-concourseFromGit/task/generate-output.sh
+  path: resource-concourseFromGit/task/show-files.sh
 
   
   
