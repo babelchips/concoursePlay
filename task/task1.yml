@@ -16,7 +16,7 @@ params:
 
 run:
   path: resource-concourseFromGit/task/generate-output.sh
-  args: [{{taskArgumentHere1}}]
+  args: ["nothing to see here"]
 
   
   
