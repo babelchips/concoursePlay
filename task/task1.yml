@@ -11,6 +11,9 @@ inputs:
 outputs: 
  - name: generated-output-folder
 
+params:
+    MYPARAM3: "default message"
+
 run:
   path: resource-concourseFromGit/task/generate-output.sh
 
