@@ -11,9 +11,12 @@ inputs:
 outputs: 
  - name: generated-output-folder
 
+params:
+    taskArgumentHere1:
+
 run:
   path: resource-concourseFromGit/task/generate-output.sh
-  args: ['hello']
+  args: [{{taskArgumentHere1}}]
 
   
   
