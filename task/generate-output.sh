@@ -1,4 +1,7 @@
 #!/bin/bash
 
-mkdir generated-output-folder
+if [ ! -d generated-output-folder ]; then
+	mkdir generated-output-folder
+fi
+
 echo "hello?" > generated-output-folder/output.txt
